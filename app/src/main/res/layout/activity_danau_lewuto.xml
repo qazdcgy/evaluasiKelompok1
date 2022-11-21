@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:src="@drawable/danau"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="\t\tDanau Lewuto ini berlokasi di kawasan Taman Nasional Lore Lindu. Keindahan dan pesona yang ada di Danau Lewuto begitu menakjubkan, sehingga tidak akan menyesal jika Paradiva berkunjung kesini untuk berlibur ke Palu. Termasuk destinasi wisata yang komplit, justru keunikan inilah yang menjadi daya tarik utama dari Danau Lewuto."
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="350dp"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:layout_centerInParent="true"/>
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

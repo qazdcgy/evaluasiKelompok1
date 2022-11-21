@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Nhome"
+        android:icon="@drawable/ic_baseline_home_32"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/Nasriani"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Asriani"/>
+
+    <item
+        android:id="@+id/Nwahyudi"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Wahyudi"/>
+
+    <item
+        android:id="@+id/NMira"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Mira"/>
+
+</menu>

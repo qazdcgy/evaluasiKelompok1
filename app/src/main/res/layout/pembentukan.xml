@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="\t\tKota Palu sekarang ini adalah
+bermula dari kerajaan yang terdiri dari kesatuan empat kampung,
+yaitu: Besusu, Tanggabanggo yang sekarang bernama Kelurahan Kamonji,
+Panggovia yang sekarang bernama Kelurahan Lere, dan Boyantongo yang
+sekarang bernama Kelurahan Baru. \n\n\t\tMereka membentuk satu Dewan Adat
+disebut Patanggota. Salah satu tugasnya adalah memilih raja dan para
+pembantunya yang erat hubungannya dengan kegiatan kerajaan.
+Kerajaan Palu lama-kelamaan menjadi salah satu kerajaan yang dikenal
+dan sangat berpengaruh. Itulah sebabnya Belanda mengadakan pendekatan
+terhadap Kerajaan Palu. \n\n\t\tBelanda pertama kali berkunjung ke Palu pada
+masa kepemimpinan Raja Maili (Mangge Risa) untuk mendapatkan
+perlindungan dari Manado pada tahun 1868. Pada tahun 1888, Gubernur
+Belanda untuk Sulawesi bersama dengan bala tentara dan beberapa kapal
+tiba di Kerajaan Palu, mereka pun menyerang Kayumalue.
+Setelah peristiwa perang Kayumalue, Raja Maili terbunuh oleh pihak
+Belanda dan jenazahnya dibawa ke Palu. \n\n\t\tSetelah itu ia digantikan oleh
+Raja Jodjokodi, pada tanggal 1 Mei 1888, Raja Jodjokodi menandatangani
+perjanjian pendek kepada Pemerintah Hindia Belanda."
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_centerInParent="true"/>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

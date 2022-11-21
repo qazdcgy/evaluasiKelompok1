@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:src="@drawable/hutkot"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="\t\tHutan Kota Kaombona yang berlokasi di Jalan Jabal Nur, Kelurahan Talise, Kecamatan Mantikulore menjadi tempat wisata baru pemerintah Kota Palu pascabencana 28 September 2018 silam. Hutan itu menjadi magnet bagi sebagian warga Kota Palu dan sekitarnya.
+Seperti diketahui hutan kota ini menjadi lokasi yang populer untuk berfoto. Di mana magnet untuk masyarakat menikmati pemandangan alam berupa pohon-pohon kayu yang pernah ditanam Ibu Negara Tien Soeharto pada 1971.
+Pohon-pohon yang ditanam itu tumbuh subur yang menciptakan pemandangan sangat unik. Jaraknya, yang hanya 4,2 km dari pusat Kota Palu, membuatnya menjadi destinasi wisata urban utama."
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="350dp"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:layout_centerInParent="true"/>
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

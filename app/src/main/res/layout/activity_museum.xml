@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:src="@drawable/museum"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="\t\tMuseum Sulawesi Tengah, Palu Barat
+Museum ini adalah museum terbesar di Sulawesi Tengah, terletak di Palu Barat. Di museum ini terdapat berbagai macam replika baju adat dari semua kabupaten dan kota yang ada di Sulawesi Tengah, sejarah mengenai Sulawesi Tengah dan lain lain. Yang menarik dari museum ini adalah batu megalith berbentuk manusia yang dibuat oleh nenek moyang suku Kaili yang berasal dari Lembah Napu yang bentuknya hampir mirip dengan batu megalith berbentuk manusia di Pulau Paskah, Samudera Pasifik."
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="350dp"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:layout_centerInParent="true"/>
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:src="@drawable/souraja"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="\t\tBanua Oge Sou Raja Rumah Adat Kota Palu
+Banua Oge atau Souraja adalah istana dari Kerajaan Palu pada masa sebelum kemerdekaan. Kata Souraja dapat diartikan rumah besar, merupakan rumah kediaman tidak resmi dari manggan atau raja beserta keluarga-keluarganya. Rumah orang biasa atau rakyat kebanyakan meskipun bentuk dan ukurannya sama dengan Souraja.
+Bangunan Souraja berbentuk rumah panggung yang ditopang sejumlah tiang kayu balok persegi empat dari kayu keras seperti kayu ulin, bayan, atau sejenisnya. \n\n\t\tAtapnya berbentuk piramida segitiga, bagian depan dan belakang atapnya ditutup dengan papan yang dihiasi dengan ukiran disebut panapiri dan pada ujung bubungan bagian depan dan belakang diletakkan mahkota berukir disebut bangko-bangko. Seluruh bahan bangunan mulai dari lantai, dinding balok-balok terbagi atas tiga ruangan, yaitu:
+Ruang depan disebut lonta karawana yang dibiarkan kosong, berfungsi untuk menerima tamu. Dahulu sebelum ada meja kursi, di ruangan ini dibentangkan tikar atau onysa.\n\n\t\t Ruangan ini juga untuk tempat tidur tamu yang menginap."
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="350dp"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:layout_centerInParent="true"/>
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

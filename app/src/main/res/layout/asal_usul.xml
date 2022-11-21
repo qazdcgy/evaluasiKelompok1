@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="\t\tAsal usul nama kota Palu adalah kata Topalu'e yang artinya Tanah yang terangkat karena daerah ini awalnya lautan. Pernah terjadi gempa dan pergeseran lempeng (palu koro) sehingga daerah yang tadinya lautan tersebut terangkat dan membentuk daratan lembah yang sekarang menjadi Kota Palu.\n\t\n
+
+Istilah lain juga menyebutkan bahwa kata asal usul nama Kota Palu berasal dari bahasa Kaili VOLO yang berarti bambu yang tumbuh dari daerah Tawaeli sampai di daerah sigi. \n\n\t\tBambu sangat erat kaitannya dengan masyarakat suku Kaili, ini dikarenakan ketergantungan masyarakat Kaili dalam penggunaan bambu sebagai kebutuhan sehari-hari mereka, baik itu dijadikan Bahan makanan (Rebung), Bahan bangunan (Dinding, tikar, dll), Perlengkapan sehari hari, permainan (Tilako), serta alat musik (Lalove) dihimpun dari berbagai sumber.
+
+\n\n\t\tBencana alam gempa bumi yang di ikuti tsunami dan likuifaksi merupakan bencana dahsyat yang terjadi 28 September tahun 2018, berbagai infrastruktur vital rusak, kini setelah 3 tahun pasca gempa Kota Palu dan sekitarnya sudah mulai berbenah."
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_centerInParent="true"/>
+
+    </ScrollView>
+</RelativeLayout>

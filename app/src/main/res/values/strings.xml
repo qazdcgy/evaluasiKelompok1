@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">EVALUASI</string>
+    <string name="title">title</string>
+    <string name="nama_makanan">nama_makanan</string>
+    <array name="datapoto">
+        <item>@drawable/sejarah</item>
+        <item>@drawable/sayuran</item>
+        <item>@drawable/wisata</item>
+    </array>
+    <string-array name="data_name">
+        <item>Sejarah</item>
+        <item>Makanan</item>
+        <item>Wisata</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <array name="datapoto1">
+        <item>@drawable/d</item>
+        <item>@drawable/c</item>
+        <item>@drawable/b</item>
+        <item>@drawable/a</item>
+        <item>@drawable/e</item>
+    </array>
+    <string-array name="data_name1">
+        <item>Kaledo</item>
+        <item>Uta Kelo</item>
+        <item>Duo Sole</item>
+        <item>Labia Dange</item>
+        <item>Lalampa</item>
+    </string-array>
+
+    <array name="datapoto2">
+        <item>@drawable/museum</item>
+        <item>@drawable/danau</item>
+        <item>@drawable/souraja</item>
+        <item>@drawable/talise</item>
+        <item>@drawable/hutkot</item>
+    </array>
+    <string-array name="data_name2">
+        <item>Museum</item>
+        <item>Danau Lewuto</item>
+        <item>Sou Raja</item>
+        <item>Pantai Talise</item>
+        <item>Hutan Kota</item>
+    </string-array>
+
+</resources>

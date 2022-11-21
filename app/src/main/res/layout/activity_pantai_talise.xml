@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:src="@drawable/talise"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="\t\tPantai Talise adalah sebuah pantai yang berlokasi tidak jauh dari Kota Palu,
+Sulawesi Tengah. Atau lebih tepatnya di sepanjang Teluk Palu. Pantai Talise berada di sepanjang Jalan Rajamoli sampai Jalan Cut Mutia, Palu, Sulawesi Tengah. Akses menuju obyek wisata pantai ini pun juga sangat mudah, murah dan meriah. Pantai Talise ini terletak langsung di depan Teluk Palu dan pantai ini juga memiliki pasir putih dengan ombaknya yang tenang memukau. Sudah banyak fasilitas yang dibangun disini. Memandang keindahan teluk dari Pantai Talise di atas sepeda motor anda atau dalam mobil anda sangat menjanjikan untuk menghabiskan waktu di sore hari di Pantai Talise Palu. Pantai Talise sendiri diambil dari sebuah kata dalam bahasa Kaili yang berarti Ketapang. Menurut masyarakat sekitar, dahulu kala banyak terdapat pohon ketapang di pantai ini. Oleh karena itu pantai ini lalu diberi nama Pantai Talise (Pantai Ketapang)."
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="350dp"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:layout_centerInParent="true"/>
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
